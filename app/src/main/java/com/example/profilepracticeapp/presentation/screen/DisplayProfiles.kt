@@ -15,6 +15,8 @@ import androidx.compose.ui.unit.dp
 
 import com.example.profilepracticeapp.presentation.viewmodel.ProfileViewModel
 
+// Initial display of the profiles
+
 @Composable
 fun DisplayProfiles(viewModel: ProfileViewModel) {
 
