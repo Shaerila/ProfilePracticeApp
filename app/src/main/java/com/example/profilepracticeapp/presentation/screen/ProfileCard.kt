@@ -22,6 +22,7 @@ import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import com.example.profilepracticeapp.domain.model.Result
 
+// Individual profile cards that will be displayed on the "DisplayProfiles.kt" composable
 
 @Composable
 fun ProfileCard(profile: Result) {
@@ -30,7 +31,7 @@ fun ProfileCard(profile: Result) {
             .fillMaxWidth()
             .height(175.dp)
             .padding(5.dp),
-//        onClick = , // When we click, we need to pass "profile.Id,value" for navigation
+//        onClick = , // When we click, we need to pass "profile.Id.value" for navigation
         elevation = CardDefaults.cardElevation(6.dp),
         colors = CardDefaults.cardColors(containerColor = Color.LightGray)
     ) {
